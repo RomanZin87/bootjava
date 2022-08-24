@@ -13,7 +13,7 @@ spring:
         # https://stackoverflow.com/questions/21257819/what-is-the-difference-between-hibernate-jdbc-fetch-size-and-hibernate-jdbc-batc
         jdbc.batch_size: 20
         # https://stackoverflow.com/questions/39094649/h2-database-null-not-allowed-for-column-id-when-inserting-record-using-jdbcte/54697387#54697387
-        id.new_generator_mappings: false
+        # id.new_generator_mappings: false
   datasource:
     # ImMemory
     url: jdbc:h2:mem:voting
